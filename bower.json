@@ -13,6 +13,9 @@
     "tests"
   ],
   "dependencies": {
-	"angularjs": "~1.2.25"
+	"angularjs": "~1.2.25",
+	  "angular-sails": "~1.0.4",
+	  "angularSails": "~0.10.0-pre",
+	  "d3": "~3.1.1"
   }
 }
