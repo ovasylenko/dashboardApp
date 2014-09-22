@@ -5,6 +5,7 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+	"bower":"latest",
     "sails": "~0.10.5",
     "sails-disk": "~0.10.4",
     "rc": "~0.5.1",
@@ -27,7 +28,7 @@
   "scripts": {
     "start": "node app.js",
     "debug": "node debug app.js",
-	"postinstall": "bower cache clean && bower install"
+	"postinstall": " node_modules/bowe/bin/bower cache clean && node_modules/bowe/bin/bower install install"
   },
   "main": "app.js",
   "repository": {
