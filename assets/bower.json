@@ -16,6 +16,7 @@
     "angular-sails": "~1.0.4",
     "angularSails": "~0.10.0-pre",
     "angularjs": "~1.2.25",
+	"d3": "~3.1.1",
     "ng-selectize": "*",
     "angularjs-nvd3-directives": "~0.0.7",
     "sails.io.js": "~0.10.3",
