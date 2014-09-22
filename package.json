@@ -30,7 +30,7 @@
   "scripts": {
     "start": "node app.js",
     "debug": "node debug app.js",
-    "postinstall": "bower cache clean && bower install --force-latest && grunt build"
+    "postinstall": " bower install && grunt build"
   },
   "main": "app.js",
   "repository": {
