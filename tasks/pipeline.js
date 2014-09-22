@@ -16,7 +16,7 @@
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
   'bower_components/nvd3/nv.d3.min.css',
-  'styles/**/*.css'
+  'styles/main.css'
 ];
 
 
