@@ -21,6 +21,6 @@
     "socket.io-client": "~1.1.0",
     "lodash": "~2.4.1",
     "d3": "~3.4.11",
-    "angularjs-nvd3-directives": "~0.0.7"
+    "angularjs-nvd3-directives": "latest"
   }
 }
