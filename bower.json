@@ -13,14 +13,14 @@
     "tests"
   ],
   "dependencies": {
-	"angularjs": "~1.2.25",
-	  "angular-sails": "~1.0.4",
-	  "angularSails": "~0.10.0-pre",
-	  "sails.io.js": "~0.10.3",
-	  "sails": "~12.12.2000",
-	  "socket.io-client": "~1.1.0",
-	  "angularjs-nvd3-directives": "~0.0.7"
-
-
+    "angularjs": "~1.2.25",
+    "angular-sails": "~1.0.4",
+    "angularSails": "~0.10.0-pre",
+    "sails.io.js": "~0.10.3",
+    "sails": "~12.12.2000",
+    "socket.io-client": "~1.1.0",
+	"lodash": "~2.4.1",
+    "d3": "~3.4.11",
+	"angularjs-nvd3-directives": "~0.0.7",
   }
 }
