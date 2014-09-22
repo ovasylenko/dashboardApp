@@ -1,0 +1,117 @@
+.row_default {
+
+  @include box-sizing(border-box);
+  height: 38px;
+  padding: 5px 5px;
+  margin-top: 1px;
+  margin-bottom:11px;
+  line-height: 24px;
+  overflow:hidden;
+
+  .row_default_header{
+	cursor:pointer;
+	height: 30px;
+  }
+
+  &.row_disabled {
+	border: 2px solid $disabled_border_color;
+	@include background-image(linear-gradient(to right, $disabled_background_color, white));
+	.row_default_header {
+	  color: $disabled_border_color;
+	}
+  }
+
+  &.row_rejected {
+	border: 2px solid $rejected_border_color;
+	@include background-image(linear-gradient(to right, $rejected_background_color, white));
+	.row_default_header {
+	  color: $rejected_border_color;
+	}
+  }
+
+  &.row_running {
+	border: 2px solid $running_border_color;
+	@include background-image(linear-gradient(to right, $running_background_color, white));
+	.row_default_header {
+	  color: $running_border_color;
+	}
+  }
+
+  &.row_completed {
+	border: 2px solid $completed_border_color;
+	@include background-image(linear-gradient(to right, $completed_background_color, white));
+	.row_default_header {
+	  color: $completed_border_color;
+	}
+  }
+
+  .icon_status_container {
+	width: 43px;
+	height: 25px;
+	margin-right:15px;
+
+	@import "firewall/*.png";
+
+	.firewall {
+	  width: 29px;
+	  height: 25px;
+
+	  margin:0 auto;
+	  &.fail {
+		@include firewall-sprite(fw_fail);
+	  }
+	  &.ok {
+		@include firewall-sprite(fw_ok);
+	  }
+	}
+
+	@import "build/*.png";
+
+	.build {
+	  width: 43px;
+	  height: 26px;
+	  margin-right: 5px;
+	  &.rejected {
+		@include build-sprite(rejected);
+	  }
+	  &.completed {
+		@include build-sprite(completed);
+	  }
+	  &.pending {
+		@include build-sprite(pending);
+	  }
+	  &.running {
+		@include build-sprite(running);
+	  }
+
+	}
+  }
+
+  &.animate-height {
+	@include transition-property(height);
+	@include transition-duration(1s);
+  }
+
+  .animate-opacity {
+	@include transition-property(opacity);
+	@include transition-duration(1s);
+  }
+
+  .default-opacity{
+	@include opacity(1.0);
+  }
+
+  .hidden-opacity{
+	@include opacity(0.0);
+  }
+
+  &.height-expanded{
+	height:240px;
+
+	.id{
+	  text-decoration: underline;
+	  color:$running_border_color;
+	  font-weight: bold;
+	}
+  }
+}

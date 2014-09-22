@@ -1,0 +1,26 @@
+<div ng-class="code.class + (entry.viewData.isExpanded?' height-expanded':'')" class="row_default animate-height">
+	<div class="row_default_header" ng-click="entry.viewData.expand(code.id!=0 && code.id!=200 )">
+		<div class="b-column_0 pull-left">
+			<div class="icon_status_container pull-left">
+				<div ng-class="code.imageClass"></div>
+			</div>
+			<div class="pull-left id">{{entry.id}}</div>
+		</div>
+		<div class="b-column_1 pull-left">{{entry.owner | isStringEmpty}}</div>
+		<div class="b-column_2 pull-left">{{(entry.time.start | date:'MM/dd/yyyy h:mma').replace("AM", "am").replace("PM","pm")}}</div>
+		<div class="b-column_3 pull-left">{{code.label}}</div>
+		<div class="b-column_4 pull-left animate-opacity" ng-class="entry.viewData.isExpanded?'hidden-opacity':'default-opacity'">
+			<build-status-block code="entry.state.metrics.state.code"  percents="entry.state.metrics.state.percentage"></build-status-block>
+		</div>
+		<div class="b-column_5 pull-left animate-opacity" ng-class="entry.viewData.isExpanded?'hidden-opacity':'default-opacity'">
+			<build-status-block code="entry.state.build.code"  percents="entry.state.build.percentage"></build-status-block>
+		</div>
+		<div class="b-column_6 pull-left animate-opacity" ng-class="entry.viewData.isExpanded?'hidden-opacity':'default-opacity'">
+			<build-status-block code="entry.state.tests.unit.code"  percents="entry.state.tests.unit.percentage"></build-status-block>
+		</div>
+		<div class="b-column_7 pull-left animate-opacity" ng-class="entry.viewData.isExpanded?'hidden-opacity':'default-opacity'">
+			<build-status-block code="entry.state.tests.functional.code"  percents="entry.state.tests.functional.percentage"></build-status-block>
+		</div>
+	</div>
+	<build-status-details state="entry.state" type="entry.type"  deploy="entry.deployServers"></build-status-details>
+</div>

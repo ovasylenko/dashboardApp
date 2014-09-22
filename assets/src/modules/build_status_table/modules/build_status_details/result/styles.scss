@@ -1,0 +1,48 @@
+.b-result{
+  padding:5px 0px;
+  height: 167px;
+  width: 186px;
+  margin-right:20px;
+  overflow:hidden;
+  text-align: center;
+
+  .b-result_title{
+	font-size:22px;
+  }
+
+  .b-result_value{
+	font-size:20px;
+	line-height: 24px;
+	&.row_rejected{
+	  color:$rejected_border_color;
+	}
+  }
+
+  .b-result_value__message{
+	font-size:24px;
+	line-height: 25px;
+	&.row_rejected{
+	  color:$rejected_border_color;
+	}
+
+	&.row_accepted{
+	  color:$average_color;
+	}
+
+
+	&.row_completed{
+	  color:$average_color;
+	}
+
+  }
+
+  .b-controls_container{
+	top: 10px;
+	position: relative;
+	.spacer{
+	  margin:10px;
+	}
+  }
+
+
+}

@@ -1,0 +1,421 @@
+{
+	"data": [
+		{
+			"id":"Tenrox-R1_1235",
+			"owner":"",
+			"deployServers":["Production","TFS"],
+			"type":1,
+			"time":{
+				"start":"Fri, 19 Sep 2014 12:12:53 GMT"
+			},
+			"state":{
+				"code":0,
+				"message":"",
+				"metrics":{
+					"state":{
+						"code":0,
+						"percentage":0
+					},
+					"test":{
+						"change":null,
+						"amount":14
+					},
+					"maintability":{
+						"change":-12,
+						"amount":54
+					},
+					"security":{
+						"change":0,
+						"amount":23
+					},
+					"workmanship":{
+						"change":28,
+						"amount":30
+					}
+				},
+				"build":{
+						"code":0,
+						"percentage":0,
+						"buildTime":"Fri, 19 Sep 2014 16:12:53 GMT",
+						"buildServers":[
+							{
+							  "name":"Debug",
+							  "status":0
+							},
+							{
+								"name":"Release",
+								"status":0
+							}
+						]
+					},
+				"tests":{
+					"functional":{
+						"code":0,
+						"results": {
+							"passed": 153,
+							"failed": 12
+						},
+						"coveragePercent":76
+					},
+					"unit":{
+						"code":0,
+						"results": {
+							"passed": 103,
+							"failed": 10
+						},
+						"coveragePercent":16
+					}
+				}
+			}
+		},
+		{
+			"id":111343,
+			"type":0,
+			"owner":"Eugene",
+			"deployServers":["Production","TFS"],
+			"time":{
+				"start":"Fri, 19 Sep 2014 12:12:53 GMT",
+				"end":"Fri, 19 Sep 2014 12:14:12 GMT"
+			},
+			"state":{
+				"code":100,
+				"message":"",
+				"metrics":{
+					"state":{
+						"code":2,
+						"percentage":100
+					},
+					"test":{
+						"change":1,
+						"amount":12
+					},
+					"maintability":{
+						"change":0,
+						"amount":65
+					},
+					"security":{
+						"change":1,
+						"amount":56
+					},
+					"workmanship":{
+						"change":1,
+						"amount":60
+					}
+				},
+				"build":{
+						"code":2,
+						"percentage":100,
+						"buildTime":"Fri, 19 Sep 2014 16:12:53 GMT",
+						"buildServers":[
+							{
+								"name":"Debug",
+								"status":2
+							},
+							{
+								"name":"Release",
+								"status":2
+							}
+						]
+				},
+				"tests":{
+					"functional":{
+						"code":2,
+						"results": {
+							"passed": 13,
+							"failed": 80
+						},
+						"coveragePercent":16
+					},
+					"unit":{
+						"code":2,
+						"results": {
+							"passed": 763,
+							"failed": 876
+						},
+						"coveragePercent":16
+					}
+				}
+			}
+		},
+		{
+			"id":"Tenrox-R1_2235",
+			"type":1,
+			"owner":"t-Jay",
+			"deployServers":["Production","TFS"],
+			"time":{
+				"start":"Fri, 19 Sep 2014 12:12:53 GMT",
+				"end":"Fri, 19 Sep 2014 12:14:12 GMT"
+			},
+			"state":{
+				"code":200,
+				"message":"Unit test Failed",
+				"metrics":{
+					"state":{
+						"code":2,
+						"percentage":100
+					},
+					"test":{
+						"change":1,
+						"amount":24
+					},
+					"maintability":{
+						"change":0,
+						"amount":15
+					},
+					"security":{
+						"change":-1,
+						"amount":66
+					},
+					"workmanship":{
+						"change":-2,
+						"amount":63
+					}
+				},
+				"build":{
+						"code":2,
+						"percentage":200,
+						"buildTime":"Fri, 19 Sep 2014 16:12:53 GMT",
+						"buildServers":[
+							{
+								"name":"Debug",
+								"status":2
+							},
+							{
+								"name":"Release",
+								"status":2
+							}
+						]
+				},
+				"tests":{
+					"functional":{
+						"code":0,
+						"percentage":0,
+						"results": {
+							"passed": 10,
+							"failed": 120
+						},
+						"coveragePercent":76
+					},
+					"unit":{
+						"code":1,
+						"percentage":72,
+						"results": {
+							"passed": 53,
+							"failed": 50
+						},
+						"coveragePercent":16
+					}
+				}
+			}
+		},
+		{
+			"id":333,
+			"type":1,
+			"owner":"t-Jay",
+			"deployServers":["Production","TFS"],
+			"time":{
+				"start":"Fri, 19 Sep 2014 12:12:53 GMT",
+				"end":"Fri, 19 Sep 2014 12:14:12 GMT"
+			},
+			"state":{
+				"code":400,
+				"message":"Metrics reduction",
+				"metrics":{
+					"state":{
+						"code":-1,
+						"percentage":5
+					},
+					"test":{
+						"change":1,
+						"amount":34
+					},
+					"maintability":{
+						"change":-2,
+						"amount":15
+					},
+					"security":{
+						"change":-3,
+						"amount":6
+					},
+					"workmanship":{
+						"change":-2,
+						"amount":30
+					}
+				},
+				"build":{
+						"code":0,
+						"percentage":0,
+						"buildTime":"Fri, 19 Sep 2014 16:12:53 GMT",
+						"buildServers":[
+							{
+								"name":"Debug",
+								"status":0
+							},
+							{
+								"name":"Release",
+								"status":0
+							}
+						]
+				},
+				"tests":{
+					"functional":{
+						"code":0,
+						"results": {
+							"passed": 153,
+							"failed": 12
+						},
+						"coveragePercent":76
+					},
+					"unit":{
+						"code":0,
+						"results": {
+							"passed": 103,
+							"failed": 10
+						},
+						"coveragePercent":16
+					}
+				}
+			}
+		},
+		{
+			"id":1324242,
+			"type":1,
+			"owner":"mr_Smith",
+			"deployServers":["Production","TFS"],
+			"time":{
+				"start":"Fri, 19 Sep 2014 12:12:53 GMT",
+				"end":"Fri, 19 Sep 2014 12:14:12 GMT"
+			},
+			"state":{
+				"code":100,
+				"message":"Build was sucessfully merged",
+				"metrics":{
+					"state":{
+						"code":2,
+						"percentage":100
+					},
+					"test":{
+						"change":0,
+						"amount":14
+					},
+					"maintability":{
+						"change":5,
+						"amount":15
+					},
+					"security":{
+						"change":-10,
+						"amount":56
+					},
+					"workmanship":{
+						"change":-1,
+						"amount":60
+					}
+				},
+				"build":{
+						"code":2,
+						"percentage":100,
+						"buildTime":"Fri, 19 Sep 2014 16:12:53 GMT",
+						"buildServers":[
+							{
+								"name":"Debug",
+								"status":2
+							},
+							{
+								"name":"Release",
+								"status":2
+							}
+						]
+				},
+				"tests":{
+					"functional":{
+						"code":2,
+						"percentage":100,
+						"results": {
+							"passed": 153,
+							"failed": 12
+						},
+						"coveragePercent":76
+					},
+					"unit":{
+						"code":2,
+						"percentage":100,
+						"results": {
+							"passed": 103,
+							"failed": 10
+						},
+						"coveragePercent":16
+					}
+				}
+			}
+		},
+		{
+			"id":3333,
+			"type":0,
+			"owner":"Eugene",
+			"deployServers":["Production","TFS"],
+			"time":{
+				"start":"Fri, 19 Sep 2014 12:12:53 GMT",
+				"end":"Fri, 19 Sep 2014 12:14:12 GMT"
+			},
+			"state":{
+				"code":400,
+				"message":"Build failed",
+				"metrics":{
+					"state":{
+						"code":2,
+						"percentage":100
+					},
+					"test":{
+						"change":23,
+						"amount":4
+					},
+					"maintability":{
+						"change":-3,
+						"amount":88
+					},
+					"security":{
+						"change":-2,
+						"amount":12
+					},
+					"workmanship":{
+						"change":-4,
+						"amount":66
+					}
+				},
+				"build":{
+						"code":-1,
+						"percentage":45,
+						"buildTime":"Fri, 19 Sep 2014 16:12:53 GMT",
+						"buildServers":[
+							{
+								"name":"Debug",
+								"status":2
+							},
+							{
+								"name":"Release",
+								"status":-1
+							}
+						]
+				},
+				"tests":{
+					"functional":{
+						"code":0,
+						"results": {
+							"passed": 153,
+							"failed": 12
+						},
+						"coveragePercent":76
+					},
+					"unit":{
+						"code":0,
+						"results": {
+							"passed": 103,
+							"failed": 10
+						},
+						"coveragePercent":16
+					}
+				}
+			}
+		}
+	]
+}

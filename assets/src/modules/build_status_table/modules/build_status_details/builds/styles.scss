@@ -1,0 +1,44 @@
+.b-builds{
+  	position:relative;
+	.b-time-stamp{
+	  position:absolute;
+	  bottom:0px;
+	  text-align: center;
+	  font-size:12px;
+	  width: 100%;
+	}
+
+ 	 @import "build_big/*.png";
+
+	.b-build_computer__container{
+	  margin: 25px 10px 0px;
+	  float:left;
+	  width: 70px;
+
+	  .b-build_computer{
+
+		width: 70px;
+		height: 42px;
+		&.fail{
+		  @include build_big-sprite(fail);
+		}
+
+		&.ok{
+		  @include build_big-sprite(ok);
+		}
+	  }
+
+	  .b-build_title{
+		font-size: 18px;
+		text-align: center;
+
+		&.fail{
+		  color:$rejected_border_color;
+		}
+
+		&.ok{
+		  color:$running_border_color;
+		}
+	  }
+	}
+}

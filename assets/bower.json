@@ -1,0 +1,25 @@
+{
+  "name": "assets",
+  "version": "0.0.0",
+  "authors": [
+    "Alexey Vasilenko <lxvslnk@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-sails": "~1.0.4",
+    "angularSails": "~0.10.0-pre",
+    "angularjs": "~1.2.25",
+    "ng-selectize": "*",
+    "angularjs-nvd3-directives": "~0.0.7",
+    "sails.io.js": "~0.10.3",
+    "sails": "~12.12.2000",
+    "socket.io-client": "~1.1.0"
+  }
+}

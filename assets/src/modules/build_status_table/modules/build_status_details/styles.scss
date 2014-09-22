@@ -1,0 +1,55 @@
+.b-details{
+  height:280px;
+  padding:14px 19px;
+ // @include box-sizing(border-box);
+
+  .b-details_sub_box{
+	@include box-sizing(border-box);
+	padding:5px 0px;
+	border:2px solid;
+	height: 167px;
+	width: 186px;
+	float:left;
+	margin-right:20px;
+	overflow:hidden;
+
+	&.fail{
+	  border-color:$rejected_border_color;
+	}
+
+	&.pending{
+	  visibility: hidden;
+	}
+
+	&.ok{
+	  border-color:$completed_border_color;
+	  @include box-shadow($default_shadow_color 3px 2px 10px);
+	}
+
+	.b-title{
+	  font-size:16px;
+	  margin-left:8px;
+	  font-weight: bold;
+
+
+
+	  &.fail{
+		color:$rejected_border_color;
+	  }
+
+	  &.ok{
+		color:$completed_border_color;
+	  }
+
+	  &.pending{
+		color:$disabled_border_color;
+	  }
+	}
+
+  }
+
+  @import "metrics/styles";
+  @import "builds/styles";
+  @import "tests/styles";
+  @import "result/styles";
+}

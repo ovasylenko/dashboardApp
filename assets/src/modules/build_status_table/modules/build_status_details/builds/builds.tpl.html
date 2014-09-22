@@ -1,0 +1,9 @@
+<div class="b-details_sub_box b-builds" ng-class="code.class">
+	<div class="b-title" ng-class="code.class">Builds</div>
+	<div class="b-build_computer__container" ng-repeat="server in builds.buildServers" ng-init="subcode=getCode(server.status)">
+		<div class="b-build_computer" ng-class="subcode.class"></div>
+		<div class="b-build_title" ng-class="subcode.class">{{server.name}}</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="b-time-stamp">{{(builds.buildTime | date:'h:mma - MM/dd/yyyy').toLowerCase()}}</div>
+</div>

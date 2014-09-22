@@ -1,0 +1,28 @@
+<div class="b-details_sub_box b-metrics" ng-class="code.class">
+	<div class="b-title" ng-class="code.class">Metrics</div>
+	<div class="pull-left b-arrow-container">
+		<div class="b-arrow__height">
+			<div class="arrow" ng-class="getClass(metrics.test.change)"><div class="b-text">{{metrics.test.amount}}</div></div>
+		</div>
+		<div class="b-text">Test</div>
+	</div>
+	<div class="pull-left b-arrow-container">
+		<div class="b-arrow__height">
+		   <div class="arrow" ng-class="getClass(metrics.maintability.change)"><div class="b-text">{{metrics.maintability.amount}}</div></div>
+		</div>
+		<div class="b-text">Maintainability</div>
+	</div>
+	<div class="clearfix"></div>
+	<div class="pull-left b-arrow-container">
+		<div class="b-arrow__height">
+			<div class="arrow" ng-class="getClass(metrics.security.change)"><div class="b-text">{{metrics.security.amount}}</div></div>
+		</div>
+		<div class="b-text">Security</div>
+	</div>
+	<div class="pull-left b-arrow-container">
+		<div class="b-arrow__height">
+			<div class="arrow" ng-class="getClass(metrics.workmanship.change)"><div class="b-text">{{metrics.workmanship.amount}}</div></div>
+		</div>
+		<div class="b-text">Workmanship</div>
+	</div>
+</div>

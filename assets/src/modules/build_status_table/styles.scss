@@ -1,0 +1,38 @@
+
+$column-widths: (170px, 110px, 208px, 108px, 105px, 77px, 122px, 115px);
+
+.b-container{
+  width:$container_width;
+  background-color: $container_background_color;
+  border: 2px solid $container_border_color;
+  position:relative;
+  margin:0 auto;
+
+  padding: 42px 16px;
+  @include box-sizing(border-box);
+
+
+  .b-container__header{
+	font-size:18px;
+	margin-left:6px;
+
+  }
+
+  @for $i from 0 to length($column-widths) {
+	.b-column_#{$i} {
+	  width: unquote(nth($column-widths, $i+1));
+	  @if ($i>0) {
+		text-align: center;
+	  }
+	}
+  }
+
+  @import "modules/build_status_row_header/styles";
+  @import "modules/build_status_block/styles";
+  @import "modules/build_status_details/styles";
+
+}
+
+
+
+

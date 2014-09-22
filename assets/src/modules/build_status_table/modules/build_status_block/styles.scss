@@ -1,0 +1,16 @@
+.b-status_container{
+  background: $default_status_container_color;
+  height:26px;
+  width: 45px;
+  margin: 0 auto;
+
+  .b-status_container__progress{
+	height:100%;
+	width:0px;
+
+	&.ok{ background: $completed_border_color; }
+	&.pending{ background: $disabled_border_color; }
+	&.fail{ background: $rejected_border_color; }
+	&.running{ background: $running_border_color; }
+  }
+}

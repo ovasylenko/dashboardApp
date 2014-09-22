@@ -1,0 +1,71 @@
+{
+	"id":"Tenrox-R1_2235",
+	"type":1,
+	"owner":"t-Jay",
+	"deployServers":["Production","TFS"],
+	"time":{
+		"start":"Fri, 19 Sep 2014 12:12:53 GMT",
+		"end":"Fri, 19 Sep 2014 12:14:12 GMT"
+	},
+	"state":{
+		"code":200,
+		"message":"Unit test Failed",
+		"metrics":{
+			"state":{
+				"code":2,
+				"percentage":100
+			},
+			"test":{
+				"change":1,
+				"amount":24
+			},
+			"maintability":{
+				"change":0,
+				"amount":15
+			},
+			"security":{
+				"change":-1,
+				"amount":66
+			},
+			"workmanship":{
+				"change":-2,
+				"amount":63
+			}
+		},
+		"build":{
+			"code":2,
+			"percentage":200,
+			"buildTime":"Fri, 19 Sep 2014 16:12:53 GMT",
+			"buildServers":[
+				{
+					"name":"Debug",
+					"status":2
+				},
+				{
+					"name":"Release",
+					"status":2
+				}
+			]
+		},
+		"tests":{
+			"functional":{
+				"code":0,
+				"percentage":0,
+				"results": {
+					"passed": 10,
+					"failed": 120
+				},
+				"coveragePercent":76
+			},
+			"unit":{
+				"code":1,
+				"percentage":72,
+				"results": {
+					"passed": 53,
+					"failed": 50
+				},
+				"coveragePercent":16
+			}
+		}
+	}
+}

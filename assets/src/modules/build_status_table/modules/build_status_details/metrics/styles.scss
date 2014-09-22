@@ -1,0 +1,56 @@
+.b-metrics{
+
+  @import "arrows/*.png";
+  .b-arrow-container {
+	width:50%;
+	height:50%;
+	.b-text{
+	  text-align: center;
+	  font-size:13px;
+	}
+	.b-arrow__height{
+	  height:36px;
+	  oveflow:hidden;
+	.arrow {
+	  margin: 0 auto;
+
+	  .b-text{
+		font-size: 14px;
+	  }
+
+	  &.up {
+		width: 30px;
+		height: 36px;
+		line-height: 36px;
+
+		@include arrows-sprite(up);
+		.b-text {
+		  color: white;
+		}
+	  }
+
+	  &.down {
+		width: 30px;
+		height: 36px;
+		line-height: 36px;
+
+		@include arrows-sprite(down);
+		.b-text {
+		  color: white;
+		}
+	  }
+
+	  &.no-change {
+		height: 30px;
+		width: 36px;
+		line-height: 30px;
+		@include arrows-sprite(normal);
+
+		.b-text {
+		  color: black;
+		}
+	  }
+	}
+	}
+  }
+}

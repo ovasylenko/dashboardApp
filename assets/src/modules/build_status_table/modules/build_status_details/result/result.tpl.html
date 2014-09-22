@@ -1,0 +1,17 @@
+<div class="b-result">
+	<div class="b-result_title">Result:</div>
+	<div class="b-result_value" ng-class="code.class">{{code.resultText}}</div>
+	<div class="b-result_value__message" ng-class="code.class">{{message}}</div>
+	<div class="clearfix"></div>
+	<div class="b-controls_container" ng-if="code.class!=='row_rejected'">
+		<a class="b-button" href="#">Accept</a>
+		<span class="spacer">and deploy</span>
+		<select class="b-option spacer">
+			<option ng-repeat="server in deploy">{{server}}</option>
+		</select>
+	</div>
+
+	<div class="b-controls_container" ng-if="code.class==='row_rejected'">
+		<a class="b-button" href="#">Find Issues</a>
+	</div>
+</div>

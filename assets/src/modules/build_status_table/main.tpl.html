@@ -1,0 +1,41 @@
+<div nf-if="buildServerStatusesJson" class="b-container">
+		<div class="b-container__header">
+			<div class="pull-left b-column_0">
+				Changelist / Build
+			</div>
+
+			<div class="pull-left b-column_1">
+				Owner
+			</div>
+
+			<div class="pull-left b-column_2">
+				Time Started
+			</div>
+
+			<div class="pull-left b-column_3">
+				State
+			</div>
+
+			<div class="pull-left b-column_4">
+				Metrics
+			</div>
+
+			<div class="pull-left b-column_5">
+				Build
+			</div>
+
+			<div class="pull-left b-column_6">
+				Unit Test
+			</div>
+
+			<div class="pull-left b-column_7">
+				Functional Test
+			</div>
+
+
+		</div>
+
+		<div class="clearfix"></div>
+
+		<build-status-row-header entry="buildEntry" ng-repeat="buildEntry in buildServerStatusesJson.data"></build-status-row-header>
+</div>
