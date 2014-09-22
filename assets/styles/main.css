@@ -1,0 +1,562 @@
+/******Compass import******/
+/******Compass import******/
+/* line 4, ../../../assets/scss/base.scss */
+body {
+  font-family: Calibri;
+}
+
+/* line 8, ../../../assets/scss/base.scss */
+.pull-left {
+  float: left;
+}
+
+/* line 12, ../../../assets/scss/base.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 16, ../../../assets/scss/base.scss */
+.clearfix {
+  clear: both;
+}
+
+/*
+  Allow angular.js to be loaded in body, hiding cloaked elements until
+  templates compile.  The !important is important given that there may be
+  other selectors that are more specific or come later and might alter display.
+ */
+/* line 25, ../../../assets/scss/base.scss */
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
+/* line 3, ../../../assets/scss/controls.scss */
+.b-button {
+  padding: 6px 15px;
+  color: white;
+  background-color: #588EBE;
+  text-decoration: none;
+}
+
+/* line 10, ../../../assets/scss/controls.scss */
+.b-option {
+  font-ssize: 20px;
+}
+
+/* line 4, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container {
+  width: 1099px;
+  background-color: #FAFCFD;
+  border: 2px solid #ABBBD0;
+  position: relative;
+  margin: 0 auto;
+  padding: 42px 16px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 15, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container .b-container__header {
+  font-size: 18px;
+  margin-left: 6px;
+}
+/* line 22, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container .b-column_0 {
+  width: 170px;
+}
+/* line 22, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container .b-column_1 {
+  width: 110px;
+  text-align: center;
+}
+/* line 22, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container .b-column_2 {
+  width: 208px;
+  text-align: center;
+}
+/* line 22, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container .b-column_3 {
+  width: 108px;
+  text-align: center;
+}
+/* line 22, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container .b-column_4 {
+  width: 105px;
+  text-align: center;
+}
+/* line 22, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container .b-column_5 {
+  width: 77px;
+  text-align: center;
+}
+/* line 22, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container .b-column_6 {
+  width: 122px;
+  text-align: center;
+}
+/* line 22, ../../../assets/src/modules/build_status_table/styles.scss */
+.b-container .b-column_7 {
+  width: 115px;
+  text-align: center;
+}
+/* line 1, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 38px;
+  padding: 5px 5px;
+  margin-top: 1px;
+  margin-bottom: 11px;
+  line-height: 24px;
+  overflow: hidden;
+}
+/* line 11, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .row_default_header {
+  cursor: pointer;
+  height: 30px;
+}
+/* line 16, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.row_disabled {
+  border: 2px solid #D1D2D3;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZWZmNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #eaeff7), color-stop(100%, #ffffff));
+  background-image: -moz-linear-gradient(left, #eaeff7, #ffffff);
+  background-image: -webkit-linear-gradient(left, #eaeff7, #ffffff);
+  background-image: linear-gradient(to right, #eaeff7, #ffffff);
+}
+/* line 19, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.row_disabled .row_default_header {
+  color: #D1D2D3;
+}
+/* line 24, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.row_rejected {
+  border: 2px solid #D03C3C;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZTBlMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #fce0e0), color-stop(100%, #ffffff));
+  background-image: -moz-linear-gradient(left, #fce0e0, #ffffff);
+  background-image: -webkit-linear-gradient(left, #fce0e0, #ffffff);
+  background-image: linear-gradient(to right, #fce0e0, #ffffff);
+}
+/* line 27, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.row_rejected .row_default_header {
+  color: #D03C3C;
+}
+/* line 32, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.row_running {
+  border: 2px solid #588EBE;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZWZmNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #eaeff7), color-stop(100%, #ffffff));
+  background-image: -moz-linear-gradient(left, #eaeff7, #ffffff);
+  background-image: -webkit-linear-gradient(left, #eaeff7, #ffffff);
+  background-image: linear-gradient(to right, #eaeff7, #ffffff);
+}
+/* line 35, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.row_running .row_default_header {
+  color: #588EBE;
+}
+/* line 40, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.row_completed {
+  border: 2px solid #62983D;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViZjFlOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ebf1e9), color-stop(100%, #ffffff));
+  background-image: -moz-linear-gradient(left, #ebf1e9, #ffffff);
+  background-image: -webkit-linear-gradient(left, #ebf1e9, #ffffff);
+  background-image: linear-gradient(to right, #ebf1e9, #ffffff);
+}
+/* line 43, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.row_completed .row_default_header {
+  color: #62983D;
+}
+/* line 48, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .icon_status_container {
+  width: 43px;
+  height: 25px;
+  margin-right: 15px;
+}
+/* line 56, firewall/*.png */
+.b-container .row_default .icon_status_container .firewall-sprite, .b-container .row_default .icon_status_container .firewall.fail, .b-container .row_default .icon_status_container .firewall.ok {
+  background-image: url('/images/firewall-s8865b76ba5.png');
+  background-repeat: no-repeat;
+}
+/* line 55, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .icon_status_container .firewall {
+  width: 29px;
+  height: 25px;
+  margin: 0 auto;
+}
+/* line 60, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .icon_status_container .firewall.fail {
+  background-position: 0 0;
+}
+/* line 63, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .icon_status_container .firewall.ok {
+  background-position: 0 -25px;
+}
+/* line 72, build/*.png */
+.b-container .row_default .icon_status_container .build-sprite, .b-container .row_default .icon_status_container .build.rejected, .b-container .row_default .icon_status_container .build.completed, .b-container .row_default .icon_status_container .build.pending, .b-container .row_default .icon_status_container .build.running {
+  background-image: url('/images/build-s8c91756b88.png');
+  background-repeat: no-repeat;
+}
+/* line 70, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .icon_status_container .build {
+  width: 43px;
+  height: 26px;
+  margin-right: 5px;
+}
+/* line 74, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .icon_status_container .build.rejected {
+  background-position: 0 -52px;
+}
+/* line 77, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .icon_status_container .build.completed {
+  background-position: 0 0;
+}
+/* line 80, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .icon_status_container .build.pending {
+  background-position: 0 -26px;
+}
+/* line 83, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .icon_status_container .build.running {
+  background-position: 0 -78px;
+}
+/* line 90, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.animate-height {
+  -moz-transition-property: height;
+  -o-transition-property: height;
+  -webkit-transition-property: height;
+  transition-property: height;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+/* line 95, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .animate-opacity {
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
+}
+/* line 100, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .default-opacity {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 104, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default .hidden-opacity {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+/* line 108, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.height-expanded {
+  height: 240px;
+}
+/* line 111, ../../../assets/src/modules/build_status_table/modules/build_status_row_header/styles.scss */
+.b-container .row_default.height-expanded .id {
+  text-decoration: underline;
+  color: #588EBE;
+  font-weight: bold;
+}
+/* line 1, ../../../assets/src/modules/build_status_table/modules/build_status_block/styles.scss */
+.b-container .b-status_container {
+  background: #D8D8D8;
+  height: 26px;
+  width: 45px;
+  margin: 0 auto;
+}
+/* line 7, ../../../assets/src/modules/build_status_table/modules/build_status_block/styles.scss */
+.b-container .b-status_container .b-status_container__progress {
+  height: 100%;
+  width: 0px;
+}
+/* line 11, ../../../assets/src/modules/build_status_table/modules/build_status_block/styles.scss */
+.b-container .b-status_container .b-status_container__progress.ok {
+  background: #62983D;
+}
+/* line 12, ../../../assets/src/modules/build_status_table/modules/build_status_block/styles.scss */
+.b-container .b-status_container .b-status_container__progress.pending {
+  background: #D1D2D3;
+}
+/* line 13, ../../../assets/src/modules/build_status_table/modules/build_status_block/styles.scss */
+.b-container .b-status_container .b-status_container__progress.fail {
+  background: #D03C3C;
+}
+/* line 14, ../../../assets/src/modules/build_status_table/modules/build_status_block/styles.scss */
+.b-container .b-status_container .b-status_container__progress.running {
+  background: #588EBE;
+}
+/* line 1, ../../../assets/src/modules/build_status_table/modules/build_status_details/styles.scss */
+.b-container .b-details {
+  height: 280px;
+  padding: 14px 19px;
+}
+/* line 6, ../../../assets/src/modules/build_status_table/modules/build_status_details/styles.scss */
+.b-container .b-details .b-details_sub_box {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px 0px;
+  border: 2px solid;
+  height: 167px;
+  width: 186px;
+  float: left;
+  margin-right: 20px;
+  overflow: hidden;
+}
+/* line 16, ../../../assets/src/modules/build_status_table/modules/build_status_details/styles.scss */
+.b-container .b-details .b-details_sub_box.fail {
+  border-color: #D03C3C;
+}
+/* line 20, ../../../assets/src/modules/build_status_table/modules/build_status_details/styles.scss */
+.b-container .b-details .b-details_sub_box.pending {
+  visibility: hidden;
+}
+/* line 24, ../../../assets/src/modules/build_status_table/modules/build_status_details/styles.scss */
+.b-container .b-details .b-details_sub_box.ok {
+  border-color: #62983D;
+  -moz-box-shadow: #969D90 3px 2px 10px;
+  -webkit-box-shadow: #969D90 3px 2px 10px;
+  box-shadow: #969D90 3px 2px 10px;
+}
+/* line 29, ../../../assets/src/modules/build_status_table/modules/build_status_details/styles.scss */
+.b-container .b-details .b-details_sub_box .b-title {
+  font-size: 16px;
+  margin-left: 8px;
+  font-weight: bold;
+}
+/* line 36, ../../../assets/src/modules/build_status_table/modules/build_status_details/styles.scss */
+.b-container .b-details .b-details_sub_box .b-title.fail {
+  color: #D03C3C;
+}
+/* line 40, ../../../assets/src/modules/build_status_table/modules/build_status_details/styles.scss */
+.b-container .b-details .b-details_sub_box .b-title.ok {
+  color: #62983D;
+}
+/* line 44, ../../../assets/src/modules/build_status_table/modules/build_status_details/styles.scss */
+.b-container .b-details .b-details_sub_box .b-title.pending {
+  color: #D1D2D3;
+}
+/* line 64, arrows/*.png */
+.b-container .b-details .b-metrics .arrows-sprite, .b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow.up, .b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow.down, .b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow.no-change {
+  background-image: url('/images/arrows-s323af27fe4.png');
+  background-repeat: no-repeat;
+}
+/* line 4, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container {
+  width: 50%;
+  height: 50%;
+}
+/* line 7, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-text {
+  text-align: center;
+  font-size: 13px;
+}
+/* line 11, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-arrow__height {
+  height: 36px;
+  oveflow: hidden;
+}
+/* line 14, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow {
+  margin: 0 auto;
+}
+/* line 17, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow .b-text {
+  font-size: 14px;
+}
+/* line 21, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow.up {
+  width: 30px;
+  height: 36px;
+  line-height: 36px;
+  background-position: 0 -66px;
+}
+/* line 27, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow.up .b-text {
+  color: white;
+}
+/* line 32, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow.down {
+  width: 30px;
+  height: 36px;
+  line-height: 36px;
+  background-position: 0 0;
+}
+/* line 38, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow.down .b-text {
+  color: white;
+}
+/* line 43, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow.no-change {
+  height: 30px;
+  width: 36px;
+  line-height: 30px;
+  background-position: 0 -36px;
+}
+/* line 49, ../../../assets/src/modules/build_status_table/modules/build_status_details/metrics/styles.scss */
+.b-container .b-details .b-metrics .b-arrow-container .b-arrow__height .arrow.no-change .b-text {
+  color: black;
+}
+/* line 1, ../../../assets/src/modules/build_status_table/modules/build_status_details/builds/styles.scss */
+.b-container .b-details .b-builds {
+  position: relative;
+}
+/* line 3, ../../../assets/src/modules/build_status_table/modules/build_status_details/builds/styles.scss */
+.b-container .b-details .b-builds .b-time-stamp {
+  position: absolute;
+  bottom: 0px;
+  text-align: center;
+  font-size: 12px;
+  width: 100%;
+}
+/* line 56, build_big/*.png */
+.b-container .b-details .b-builds .build_big-sprite, .b-container .b-details .b-builds .b-build_computer__container .b-build_computer.fail, .b-container .b-details .b-builds .b-build_computer__container .b-build_computer.ok {
+  background-image: url('/images/build_big-s23b1bd1fa1.png');
+  background-repeat: no-repeat;
+}
+/* line 13, ../../../assets/src/modules/build_status_table/modules/build_status_details/builds/styles.scss */
+.b-container .b-details .b-builds .b-build_computer__container {
+  margin: 25px 10px 0px;
+  float: left;
+  width: 70px;
+}
+/* line 18, ../../../assets/src/modules/build_status_table/modules/build_status_details/builds/styles.scss */
+.b-container .b-details .b-builds .b-build_computer__container .b-build_computer {
+  width: 70px;
+  height: 42px;
+}
+/* line 22, ../../../assets/src/modules/build_status_table/modules/build_status_details/builds/styles.scss */
+.b-container .b-details .b-builds .b-build_computer__container .b-build_computer.fail {
+  background-position: 0 0;
+}
+/* line 26, ../../../assets/src/modules/build_status_table/modules/build_status_details/builds/styles.scss */
+.b-container .b-details .b-builds .b-build_computer__container .b-build_computer.ok {
+  background-position: 0 -42px;
+}
+/* line 31, ../../../assets/src/modules/build_status_table/modules/build_status_details/builds/styles.scss */
+.b-container .b-details .b-builds .b-build_computer__container .b-build_title {
+  font-size: 18px;
+  text-align: center;
+}
+/* line 35, ../../../assets/src/modules/build_status_table/modules/build_status_details/builds/styles.scss */
+.b-container .b-details .b-builds .b-build_computer__container .b-build_title.fail {
+  color: #D03C3C;
+}
+/* line 39, ../../../assets/src/modules/build_status_table/modules/build_status_details/builds/styles.scss */
+.b-container .b-details .b-builds .b-build_computer__container .b-build_title.ok {
+  color: #588EBE;
+}
+/* line 2, ../../../assets/src/modules/build_status_table/modules/build_status_details/tests/styles.scss */
+.b-container .b-details .b-tests .b-chart {
+  height: 100px;
+  width: 50%;
+  overflow: hidden;
+}
+/* line 8, ../../../assets/src/modules/build_status_table/modules/build_status_details/tests/styles.scss */
+.b-container .b-details .b-tests .b-percents__container {
+  text-align: center;
+  width: 50%;
+}
+/* line 11, ../../../assets/src/modules/build_status_table/modules/build_status_details/tests/styles.scss */
+.b-container .b-details .b-tests .b-percents__container .b-percents {
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+/* line 17, ../../../assets/src/modules/build_status_table/modules/build_status_details/tests/styles.scss */
+.b-container .b-details .b-tests .b-percents__container .b-percents_label {
+  font-size: 10px;
+  line-height: 12px;
+}
+/* line 23, ../../../assets/src/modules/build_status_table/modules/build_status_details/tests/styles.scss */
+.b-container .b-details .b-tests .b-progress_bar {
+  width: 90%;
+  height: 30px;
+  margin: 0 auto;
+  background-color: #F7CBAC;
+  position: relative;
+}
+/* line 29, ../../../assets/src/modules/build_status_table/modules/build_status_details/tests/styles.scss */
+.b-container .b-details .b-tests .b-progress_bar .b-progress_bar_ok {
+  height: 30px;
+  z-index: 1;
+  background-color: #C5E0B3;
+  position: absolute;
+  bottom: 0px;
+}
+/* line 37, ../../../assets/src/modules/build_status_table/modules/build_status_details/tests/styles.scss */
+.b-container .b-details .b-tests .b-progress_bar .b-progress_bar__text_container {
+  z-index: 5;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+/* line 44, ../../../assets/src/modules/build_status_table/modules/build_status_details/tests/styles.scss */
+.b-container .b-details .b-tests .b-progress_bar .b-progress_bar__text_container .b-percents {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+}
+/* line 50, ../../../assets/src/modules/build_status_table/modules/build_status_details/tests/styles.scss */
+.b-container .b-details .b-tests .b-progress_bar .b-progress_bar__text_container .b-covered_label {
+  font-size: 10px;
+  line-height: 12px;
+}
+/* line 1, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result {
+  padding: 5px 0px;
+  height: 167px;
+  width: 186px;
+  margin-right: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+/* line 9, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result .b-result_title {
+  font-size: 22px;
+}
+/* line 13, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result .b-result_value {
+  font-size: 20px;
+  line-height: 24px;
+}
+/* line 16, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result .b-result_value.row_rejected {
+  color: #D03C3C;
+}
+/* line 21, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result .b-result_value__message {
+  font-size: 24px;
+  line-height: 25px;
+}
+/* line 24, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result .b-result_value__message.row_rejected {
+  color: #D03C3C;
+}
+/* line 28, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result .b-result_value__message.row_accepted {
+  color: #FEC20C;
+}
+/* line 33, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result .b-result_value__message.row_completed {
+  color: #FEC20C;
+}
+/* line 39, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result .b-controls_container {
+  top: 10px;
+  position: relative;
+}
+/* line 42, ../../../assets/src/modules/build_status_table/modules/build_status_details/result/styles.scss */
+.b-container .b-details .b-result .b-controls_container .spacer {
+  margin: 10px;
+}
