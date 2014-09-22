@@ -28,7 +28,7 @@
     "sails-disk": "~0.10.4"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "node app.js --silent --port=80 --prod",
     "debug": "node debug app.js",
     "postinstall": " bower install"
   },
